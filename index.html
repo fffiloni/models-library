@@ -17,4 +17,14 @@
     <a-entity camera></a-entity>
     
   </a-scene>
+  
+  <script src="https://rawgit.com/mayognaise/aframe-video-shader/master/examples/common.js"></script>
+    <script type="text/javascript">
+    function togglePlayback () {
+      var el = document.getElementById('video')
+      var material = Object.assign({}, el.getAttribute('material'))
+      material.pause = !material.pause
+      el.setAttribute('material', material)
+    }
+    </script>
 </body>
