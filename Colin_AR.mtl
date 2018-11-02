@@ -3,7 +3,7 @@
 newmtl Colin_AR.obj
 Ka 1 1 1
 Kd 0.80000001192093 0.80000001192093 0.80000001192093
-map_Kd Colin_AR.jpg
+map_Kd https://raw.githubusercontent.com/fffiloni/models-library/master/Colin_AR.jpg
 Ks 1 1 1
 Ns 50
 illum 7
@@ -11,7 +11,7 @@ illum 7
 newmtl mat0
 Ka 1 1 1
 Kd 1 1 1
-map_Kd Colin_AR.jpg
+map_Kd https://raw.githubusercontent.com/fffiloni/models-library/master/Colin_AR.jpg
 Ks 1 1 1
 Ns 100
 d 1
